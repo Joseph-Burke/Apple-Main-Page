@@ -2,7 +2,8 @@
   border: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 main {
@@ -28,15 +29,44 @@ main {
   background-position: 50% 100%;
 }
 
+.main-image h1 {
+    font-size: 58px;
+}
+
+.main-image h3 {
+    font-size: 30px;
+    text-align: center;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-image h4 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main-image h4 i {
+    font-size: 13px;
+    align-self: top;
+    border: 1px solid white;
+    padding: 6px 6px 6px 8px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
 navbar {
-  width: 60%;
+  width: 90%;
+  max-width: 980px;
   height: 35px;
   margin: 0 auto;
   display: flex;
   position: absolute;
   align-items: center;
-  top: 100px;
-  left: 20%;
+  top: 90px;
+  left: 5%;
+  right: 5%;
   background: linear-gradient(to top, #4f4f4f, #383838 40%, #8f8f8f);
   border-radius: 4px;
 }
@@ -61,8 +91,39 @@ navbar > *:not(:last-child):hover {
 
 navbar svg {
   color: white;
-  height: 22px;
+  height: 14px;
   margin-top: -5px;
+}
+
+.searchbar-container {
+    flex: 2.3;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar-container form input {
+    align-self: center;
+    border-radius: 10px;
+    background-image: url(./assets/images/searchbar.png);
+    background-position-y: -0.25px;
+    background-position-x: -0.75px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    width: 100%;
+    /* background: transparent; */
+    /* box-shadow: 0px 1px inset; */
+    /* box-shadow: -1px -1px inset; */
+    /* border: 1px solid black; */
+}
+
+
+.searchbar-container form input:focus {
+    outline: none;
+}
+
+.searchbar-container form {
+    width: 100%;
+    height: 100%;
 }
 
 .main-image > * {
@@ -99,9 +160,10 @@ navbar svg {
 }
 
 footer {
-    width: 60%;
+    width: 90%;
+    max-width: 980px;
     margin: 10px auto 20px auto;
-    font-size: 10px;
+    font-size: 0.7vw;
     padding-top: 15px;
 }
 
@@ -110,10 +172,17 @@ footer {
 }
 
 footer .site-links span {
-    border-right: 1px solid black;
+    border-right: 1px solid #ccc;
     padding-left: 5px;
     padding-right: 5px;
 }
+
+footer .site-links span a {
+    text-decoration: none;
+    color: #08c;
+}
+
+
 
 .site-links .US-logo-image {
     width: 12px;
@@ -130,7 +199,7 @@ footer .site-links span {
 }
 
 .copyright-span {
-    border-right: 1px solid black;
+    border-right: 1px solid #ccc;
     padding-right: 5px;
 }
 

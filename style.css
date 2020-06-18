@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+}
+
+.main-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: url(./assets/images/hero-image.jpg);
+    background-size: cover;
+    background-position: 50% 75%;
+}
+
+
+
+navbar {
+    display: flex;
+    width: 80%;
+}
+
+navbar > * {
+    flex-basis: 0px;
+    flex-grow: 1;
+}

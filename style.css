@@ -7,14 +7,14 @@
 
 main {
   display: grid;
-  grid-template-rows: 80% auto;
+  grid-template-rows: 1fr 13.7vw;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "main-image main-image main-image main-image"
     "bottom-image-1 bottom-image-2 bottom-image-3 bottom-image-4";
   grid-gap: 2px;
   margin: 0 auto;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 50px);
 }
 
 .main-image {
@@ -69,25 +69,29 @@ navbar svg {
   color: white;
 }
 
-.sub-image img {
+/* .sub-image img { 
   width: 100%;
   height: 250px;
-}
+}*/
 
 .sub-image-iphone5s {
   grid-area: bottom-image-1;
+  background: url(./assets/images/iphone5s-image.jpg);
 }
 
 .sub-image-iphone5c {
   grid-area: bottom-image-2;
+  background: url(./assets/images/iphone5c-image.jpg);
 }
 
 .sub-image-happy-birthday {
   grid-area: bottom-image-3;
+  background: url(./assets/images/happy-birthday-image.jpg);
 }
 
 .sub-image-supplier {
   grid-area: bottom-image-4;
+  background: url(./assets/images/supplier-image.jpg);
 }
 
 .sub-image {

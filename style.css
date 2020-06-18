@@ -2,6 +2,7 @@
   border: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 main {
@@ -28,25 +29,42 @@ main {
 }
 
 navbar {
+  width: 60%;
+  height: 35px;
+  margin: 0 auto;
   display: flex;
-  /* background: url(./assets/images/navbar-fade-border.png); */
   position: absolute;
-  background: linear-gradient(to top, #808080, #747474, #ffffff);
-  /* background-size: contain; */
-  /* box-shadow: 10px 10px black; */
-  /* background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080)); */
+  align-items: center;
+  top: 100px;
+  left: 20%;
+  background: linear-gradient(to top, #4f4f4f, #383838 40%, #8f8f8f);
+  border-radius: 4px;
 }
 
 navbar > * {
-  flex-basis: 0px;
-  flex-grow: 1;
-  background: rgba(0, 0, 0, 0);
-  display: inline-block;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  height: 100%;
+  padding: 10px 20px;
+  flex: 1;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-navbar > *,
+navbar > *:not(:last-child) {
+  border-right: 1px solid rgb(98, 98, 98);
+}
+
+navbar > *:not(:last-child):hover {
+  background: radial-gradient(#000000, #3f3f3f, #656565);
+}
+
+navbar svg {
+  color: white;
+  height: 22px;
+  margin-top: -5px;
+}
+
 .main-image > * {
   color: white;
 }

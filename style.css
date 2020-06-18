@@ -1,3 +1,9 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 h1 {
     color: red;
 }
@@ -7,10 +13,10 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 73vh;
     background: url(./assets/images/hero-image.jpg);
     background-size: cover;
-    background-position: 50% 95%;
+    background-position: 50% 100%;
 }
 
 navbar {
@@ -31,4 +37,35 @@ navbar > * {
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+navbar > *,
+.main-image > * {
+    color: white;
+}
+
+.main-bottom-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 25vh;
+}
+
+.sub-image-iphone5s {
+    background: url(./assets/images/iphone5s-image.jpg);
+}
+
+.sub-image-iphone5c {
+    background: url(./assets/images/iphone5c-image.jpg);
+}
+
+.sub-image-happy-birthday {
+    background: url(./assets/images/happy-birthday-image.jpg);
+}
+
+.sub-image-supplier {
+    background: url(./assets/images/supplier-image.jpg);
+}
+
+.sub-image {
+    background-size: contain;
 }

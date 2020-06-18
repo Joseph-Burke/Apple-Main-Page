@@ -1,78 +1,77 @@
 * {
-    border: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-h1 {
-    color: red;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 main {
-    display: grid;
-    grid-template-rows: 73vh 25vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "main-image main-image main-image main-image"
-                        "bottom-image-1 bottom-image-2 bottom-image-3 bottom-image-4";
-    grid-gap: 2px;
-}       
+  display: grid;
+  grid-template-rows: 80% auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "main-image main-image main-image main-image"
+    "bottom-image-1 bottom-image-2 bottom-image-3 bottom-image-4";
+  grid-gap: 2px;
+  margin: 0 auto;
+  height: calc(100vh - 200px);
+}
 
 .main-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-area: main-image;
-    background: url(./assets/images/hero-image.jpg);
-    background-size: cover;
-    background-position: 50% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-area: main-image;
+  background: url(./assets/images/hero-image.jpg);
+  background-size: cover;
+  background-position: 50% 100%;
 }
 
 navbar {
-    display: flex;
-    width: 70%;
-    /* background: url(./assets/images/navbar-fade-border.png); */
-    position: absolute;
-    background: linear-gradient(to top, #808080, #747474, #FFFFFF)
-    /* background-size: contain; */
-    /* box-shadow: 10px 10px black; */
-    /* background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080)); */
+  display: flex;
+  /* background: url(./assets/images/navbar-fade-border.png); */
+  position: absolute;
+  background: linear-gradient(to top, #808080, #747474, #ffffff);
+  /* background-size: contain; */
+  /* box-shadow: 10px 10px black; */
+  /* background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080)); */
 }
 
 navbar > * {
-    flex-basis: 0px;
-    flex-grow: 1;
-    background: rgba(0,0,0,0);
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  flex-basis: 0px;
+  flex-grow: 1;
+  background: rgba(0, 0, 0, 0);
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 navbar > *,
 .main-image > * {
-    color: white;
+  color: white;
+}
+
+.sub-image img {
+  width: 100%;
+  height: 250px;
 }
 
 .sub-image-iphone5s {
-    background: url(./assets/images/iphone5s-image.jpg);
-    grid-area: bottom-image-1;
+  grid-area: bottom-image-1;
 }
 
 .sub-image-iphone5c {
-    background: url(./assets/images/iphone5c-image.jpg);
-    grid-area: bottom-image-2;
+  grid-area: bottom-image-2;
 }
 
 .sub-image-happy-birthday {
-    background: url(./assets/images/happy-birthday-image.jpg);
-    grid-area: bottom-image-3;
+  grid-area: bottom-image-3;
 }
 
 .sub-image-supplier {
-    background: url(./assets/images/supplier-image.jpg);
-    grid-area: bottom-image-4;
+  grid-area: bottom-image-4;
 }
 
 .sub-image {
-    background-size: contain;
+  background-size: contain;
 }

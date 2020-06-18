@@ -10,17 +10,25 @@ h1 {
     height: 70vh;
     background: url(./assets/images/hero-image.jpg);
     background-size: cover;
-    background-position: 50% 75%;
+    background-position: 50% 95%;
 }
-
-
 
 navbar {
     display: flex;
-    width: 80%;
+    width: 70%;
+    /* background: url(./assets/images/navbar-fade-border.png); */
+
+    background: linear-gradient(to top, #808080, #747474, #FFFFFF)
+    /* background-size: contain; */
+    /* box-shadow: 10px 10px black; */
+    /* background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080)); */
 }
 
 navbar > * {
     flex-basis: 0px;
     flex-grow: 1;
+    background: rgba(0,0,0,0);
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

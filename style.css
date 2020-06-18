@@ -2,7 +2,7 @@
   border: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
@@ -15,7 +15,7 @@ main {
     "bottom-image-1 bottom-image-2 bottom-image-3 bottom-image-4";
   grid-gap: 2px;
   margin: 0 auto;
-  height: calc(100vh - 50px);
+  min-height: calc(100vh - 50px);
 }
 
 .main-image {
@@ -30,30 +30,30 @@ main {
 }
 
 .main-image h1 {
-    font-size: 58px;
+  font-size: 58px;
 }
 
 .main-image h3 {
-    font-size: 30px;
-    text-align: center;
-    width: 60%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  font-size: 30px;
+  text-align: center;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .main-image h4 {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .main-image h4 i {
-    font-size: 13px;
-    align-self: top;
-    border: 1px solid white;
-    padding: 6px 6px 6px 8px;
-    border-radius: 100%;
-    margin-left: 10px;
+  font-size: 13px;
+  align-self: top;
+  border: 1px solid white;
+  padding: 6px 6px 6px 8px;
+  border-radius: 100%;
+  margin-left: 10px;
 }
 
 navbar {
@@ -79,6 +79,9 @@ navbar > * {
   color: white;
   font-size: 14px;
   font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 navbar > *:not(:last-child) {
@@ -91,39 +94,39 @@ navbar > *:not(:last-child):hover {
 
 navbar svg {
   color: white;
-  height: 14px;
+  height: 22px;
   margin-top: -5px;
 }
 
 .searchbar-container {
-    flex: 2.3;
-    display: flex;
-    align-items: center;
+  flex: 2.3;
+  display: flex;
+  align-items: center;
 }
 
 .searchbar-container form input {
-    align-self: center;
-    border-radius: 10px;
-    background-image: url(./assets/images/searchbar.png);
-    background-position-y: -0.25px;
-    background-position-x: -0.75px;
-    background-repeat: no-repeat;
-    padding-left: 20px;
-    width: 100%;
-    /* background: transparent; */
-    /* box-shadow: 0px 1px inset; */
-    /* box-shadow: -1px -1px inset; */
-    /* border: 1px solid black; */
+  align-self: center;
+  border-radius: 10px;
+  background-image: url(./assets/images/searchbar.png);
+  background-position-y: -0.25px;
+  background-position-x: -0.75px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  width: 100%;
+  /* background: transparent; */
+  /* box-shadow: 0px 1px inset; */
+  /* box-shadow: -1px -1px inset; */
+  /* border: 1px solid black; */
 }
 
-
 .searchbar-container form input:focus {
-    outline: none;
+  outline: none;
 }
 
 .searchbar-container form {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  margin-top: -7px;
 }
 
 .main-image > * {
@@ -160,50 +163,47 @@ navbar svg {
 }
 
 footer {
-    width: 90%;
-    max-width: 980px;
-    margin: 10px auto 20px auto;
-    font-size: 0.7vw;
-    padding-top: 15px;
+  width: 70%;
+  margin: 10px auto 20px auto;
+  font-size: 0.7vw;
+  padding-top: 15px;
 }
 
 .site-links {
-    float: right;
+  float: right;
 }
 
 footer .site-links span {
-    border-right: 1px solid #ccc;
-    padding-left: 5px;
-    padding-right: 5px;
+  border-right: 1px solid #ccc;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 footer .site-links span a {
-    text-decoration: none;
-    color: #08c;
+  text-decoration: none;
+  color: #08c;
 }
 
-
-
 .site-links .US-logo-image {
-    width: 12px;
-    height: auto;
-    border-right: none;
+  width: 12px;
+  height: auto;
+  border-right: none;
 }
 
 .site-links .US-logo-container {
-    border-right: none;
+  border-right: none;
 }
 
 .shopping-links {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .copyright-span {
-    border-right: 1px solid #ccc;
-    padding-right: 5px;
+  border-right: 1px solid #ccc;
+  padding-right: 5px;
+  clear: both;
 }
 
 .privacy-span {
-    padding-left: 5px;
+  padding-left: 5px;
 }
-

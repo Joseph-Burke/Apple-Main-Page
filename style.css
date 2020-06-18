@@ -99,19 +99,42 @@ navbar svg {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 20vw;
-    right: 20vw;
+    width: 60%;
+    margin: 10px auto 20px auto;
     font-size: 10px;
-    padding-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 15px;
 }
 
 .site-links {
     float: right;
 }
 
+footer .site-links span {
+    border-right: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.site-links .US-logo-image {
+    width: 12px;
+    height: auto;
+    border-right: none;
+}
+
+.site-links .US-logo-container {
+    border-right: none;
+}
+
 .shopping-links {
     margin-bottom: 10px;
 }
+
+.copyright-span {
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+
+.privacy-span {
+    padding-left: 5px;
+}
+

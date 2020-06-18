@@ -93,3 +93,21 @@ navbar svg {
 .sub-image {
   background-size: contain;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 20vw;
+    right: 20vw;
+    font-size: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.site-links {
+    float: right;
+}
+
+.shopping-links {
+    margin-bottom: 10px;
+}

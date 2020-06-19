@@ -26,10 +26,10 @@ navbar {
   display: flex;
   position: absolute;
   align-items: center;
-  top: 90px;
+  top: 7%;
   left: 5%;
   right: 5%;
-  background: linear-gradient(to top, #4f4f4f, #383838 40%, #8f8f8f);
+  background: linear-gradient(to top, #5f5f5f, #464646 40%, #bdbdbd);
   border-radius: 4px;
 }
 
@@ -218,4 +218,14 @@ footer .site-links span a,
 
 .privacy-span {
   padding-left: 5px;
+}
+
+@media all and (max-width: 255px) {
+  navbar {
+    width: 240px;
+  }
+
+  main {
+    width: 100%;
+  }
 }

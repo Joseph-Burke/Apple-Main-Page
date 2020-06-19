@@ -52,7 +52,7 @@ navbar > *:not(:last-child) {
 }
 
 navbar > *:not(:last-child):hover {
-  background: radial-gradient(#000000, #3f3f3f, #656565);
+  background: radial-gradient(rgba(35,35,35,.3), rgba(35,35,35,.3) 70%, rgba(100,100,100,.3) 100%);
 }
 
 navbar svg {

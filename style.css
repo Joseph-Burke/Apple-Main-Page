@@ -18,14 +18,28 @@ main {
   min-height: calc(100vh - 50px);
 }
 
+navbar,
+.searchbar-container,
+.main-image-content,
+.main-image h4,
+.main-image,
+navbar > * {
+  display: flex;
+  align-items: center;
+}
+
+navbar > *,
+.main-image,
+.main-image-content {
+  justify-content: center;
+}
+
 navbar {
   width: 90%;
   max-width: 1200px;
   height: 35px;
   margin: 0 auto;
-  display: flex;
   position: absolute;
-  align-items: center;
   top: 7%;
   left: 5%;
   right: 5%;
@@ -33,17 +47,19 @@ navbar {
   border-radius: 4px;
 }
 
+navbar > *,
+.main-image > *,
+navbar svg {
+  color: white;
+}
+
 navbar > * {
   height: 100%;
   padding: 10px 20px;
   flex: 1;
   text-align: center;
-  color: white;
   font-size: 12px;
   font-weight: 400;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-shadow: 0px -1px #444;
 }
 
@@ -52,19 +68,20 @@ navbar > *:not(:last-child) {
 }
 
 navbar > *:not(:last-child):hover {
-  background: radial-gradient(rgba(35,35,35,.3), rgba(35,35,35,.3) 70%, rgba(100,100,100,.3) 100%);
+  background: radial-gradient(
+    rgba(35, 35, 35, 0.3),
+    rgba(35, 35, 35, 0.3) 70%,
+    rgba(100, 100, 100, 0.3) 100%
+  );
 }
 
 navbar svg {
-  color: white;
   height: 22px;
   margin-top: -5px;
 }
 
 .searchbar-container {
   flex: 2.3;
-  display: flex;
-  align-items: center;
 }
 
 .searchbar-container form input {
@@ -91,10 +108,7 @@ navbar svg {
 }
 
 .main-image {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   grid-area: main-image;
   background: url(./assets/images/hero-image.jpg);
   background-size: cover;
@@ -104,10 +118,7 @@ navbar svg {
 }
 
 .main-image-content {
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .main-image h1 {
@@ -124,10 +135,7 @@ navbar svg {
 
 .main-image h4 {
   font-size: 1.5vw;
-  display: flex;
-  align-items: center;
 }
-
 
 .main-image h4:hover span {
   text-decoration: underline;
@@ -140,10 +148,6 @@ navbar svg {
   padding: 6px 6px 6px 8px;
   border-radius: 100%;
   margin-left: 10px;
-}
-
-.main-image > * {
-  color: white;
 }
 
 .sub-image-iphone5s {

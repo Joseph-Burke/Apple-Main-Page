@@ -38,9 +38,9 @@ Congratulations. If you're viewing this README.md file on a browser, via the int
 
 👤 **Joseph Burke**
 
-- Github: [@Joseph-Burke](https://github.com/Amita-Roy)
-- Twitter: [@__joeburke](https://twitter.com/AmitaRoy14)
-- Linkedin: [Joe Burke](https://www.linkedin.com/in/amita-roy-3b823b68/)
+- Github: [@Joseph-Burke](https://github.com/Joseph-Burke)
+- Twitter: [@__joeburke](https://twitter.com/__joeburke)
+- Linkedin: [Joe Burke](https://www.linkedin.com/in/joseph-burke-b7a8261a5/)
 
 ## 🤝 Contributing
 

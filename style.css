@@ -111,11 +111,11 @@ navbar svg {
 }
 
 .main-image h1 {
-  font-size: 4vw;
+  font-size: 4.1vw;
 }
 
 .main-image h3 {
-  font-size: 1.7vw;
+  font-size: 1.9vw;
   text-align: center;
   width: 60%;
   margin-top: 20px;
@@ -123,9 +123,14 @@ navbar svg {
 }
 
 .main-image h4 {
-  font-size: 1vw;
+  font-size: 1.5vw;
   display: flex;
   align-items: center;
+}
+
+
+.main-image h4:hover span {
+  text-decoration: underline;
 }
 
 .main-image h4 i {
@@ -231,4 +236,8 @@ footer .site-links span a,
   main {
     width: 100%;
   }
+}
+
+a {
+  text-decoration: none;
 }

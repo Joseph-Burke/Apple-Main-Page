@@ -78,7 +78,9 @@ navbar svg {
   width: 74%;
 }
 
-.searchbar-container form input:focus {
+.searchbar-container form input:focus,
+.searchbar-container form input:active {
+  background-position-y: -20.25px;
   outline: none;
 }
 

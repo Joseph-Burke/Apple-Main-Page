@@ -19,7 +19,7 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these steps:
 
 - Download this repository and open the zip file to a location of your choosing.
 - Open the index.html file in your browser of preference.

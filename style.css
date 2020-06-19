@@ -18,6 +18,10 @@ main {
   min-height: calc(100vh - 50px);
 }
 
+a {
+  text-decoration: none;
+}
+
 nav,
 .searchbar-container,
 .main-image-content,
@@ -47,7 +51,6 @@ nav {
   border-radius: 4px;
 }
 
-
 nav > * {
   height: 100%;
   padding: 10px 20px;
@@ -58,24 +61,24 @@ nav > * {
   text-shadow: 0 -1px #444;
 }
 
-nav > *:not(:last-child) {
-  border-right: 1px solid rgb(98, 98, 98);
-}
-
-nav > *:not(:last-child):hover {
-  background: radial-gradient(
-    rgba(35, 35, 35, 0.3),
-    rgba(35, 35, 35, 0.3) 70%,
-    rgba(100, 100, 100, 0.3) 100%
-  );
-}
-
 nav > *,
 .main-image > *,
 nav svg {
   color: white;
 }
 
+nav > *:not(:last-child) {
+  border-right: 1px solid rgb(98, 98, 98);
+}
+
+nav > *:not(:last-child):hover {
+  background:
+    radial-gradient(
+      rgba(35, 35, 35, 0.3),
+      rgba(35, 35, 35, 0.3) 70%,
+      rgba(100, 100, 100, 0.3) 100%
+    );
+}
 
 nav svg {
   height: 22px;
@@ -139,6 +142,12 @@ nav svg {
   font-size: 1.5vw;
 }
 
+footer .site-links span {
+  border-right: 1px solid #ccc;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .main-image h4:hover span {
   text-decoration: underline;
 }
@@ -187,12 +196,6 @@ footer {
   float: right;
 }
 
-footer .site-links span {
-  border-right: 1px solid #ccc;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
 .shopping-links,
 .copyright-span,
 .privacy-span,
@@ -202,9 +205,9 @@ footer .site-links span {
   font-weight: 500;
 }
 
-footer .site-links span a,
 .copyright-info a,
-.shopping-links a {
+.shopping-links a,
+footer .site-links span a {
   text-decoration: none;
   color: #08c;
   font-weight: 500;
@@ -242,8 +245,4 @@ footer .site-links span a,
   main {
     width: 100%;
   }
-}
-
-a {
-  text-decoration: none;
 }

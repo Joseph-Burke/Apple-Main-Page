@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-> Congratulations. If you're viewing this README.md file on a browser, via the internet, with a working computer, you are in possession of the pre-requisites to enjoy our work.
+Congratulations. If you're viewing this README.md file on a browser, via the internet, with a working computer, you are in possession of the pre-requisites to enjoy our work.
 
 ## Authors
 

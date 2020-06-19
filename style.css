@@ -18,23 +18,23 @@ main {
   min-height: calc(100vh - 50px);
 }
 
-navbar,
+nav,
 .searchbar-container,
 .main-image-content,
 .main-image h4,
 .main-image,
-navbar > * {
+nav > * {
   display: flex;
   align-items: center;
 }
 
-navbar > *,
+nav > *,
 .main-image,
 .main-image-content {
   justify-content: center;
 }
 
-navbar {
+nav {
   width: 90%;
   max-width: 1200px;
   height: 35px;
@@ -47,27 +47,22 @@ navbar {
   border-radius: 4px;
 }
 
-navbar > *,
-.main-image > *,
-navbar svg {
-  color: white;
-}
 
-navbar > * {
+nav > * {
   height: 100%;
   padding: 10px 20px;
   flex: 1;
   text-align: center;
   font-size: 12px;
   font-weight: 400;
-  text-shadow: 0px -1px #444;
+  text-shadow: 0 -1px #444;
 }
 
-navbar > *:not(:last-child) {
+nav > *:not(:last-child) {
   border-right: 1px solid rgb(98, 98, 98);
 }
 
-navbar > *:not(:last-child):hover {
+nav > *:not(:last-child):hover {
   background: radial-gradient(
     rgba(35, 35, 35, 0.3),
     rgba(35, 35, 35, 0.3) 70%,
@@ -75,7 +70,14 @@ navbar > *:not(:last-child):hover {
   );
 }
 
-navbar svg {
+nav > *,
+.main-image > *,
+nav svg {
+  color: white;
+}
+
+
+nav svg {
   height: 22px;
   margin-top: -5px;
 }
@@ -233,7 +235,7 @@ footer .site-links span a,
 }
 
 @media all and (max-width: 255px) {
-  navbar {
+  nav {
     width: 240px;
   }
 

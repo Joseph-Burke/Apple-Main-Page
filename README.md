@@ -35,7 +35,7 @@ Congratulations. If you're viewing this README.md file on a browser, via the int
 - Github: [@Amita-Roy](https://github.com/Amita-Roy)
 - Twitter: [@AmitaRoy14](https://twitter.com/AmitaRoy14)
 - Linkedin: [Amita Roy](https://www.linkedin.com/in/amita-roy-3b823b68/)
-- Email: sardana.amita2@gmail.com
+- Email: amita.roy@workmail.com
 
 👤 **Joseph Burke**
 

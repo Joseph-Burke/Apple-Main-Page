@@ -13,7 +13,7 @@
 - Font Awesome
 - Google Fonts
 
-## Live Demo
+## Live Demo 🔴
 
 [Live Demo Link](https://kind-snyder-d48522.netlify.app/)
 
@@ -35,12 +35,14 @@ Congratulations. If you're viewing this README.md file on a browser, via the int
 - Github: [@Amita-Roy](https://github.com/Amita-Roy)
 - Twitter: [@AmitaRoy14](https://twitter.com/AmitaRoy14)
 - Linkedin: [Amita Roy](https://www.linkedin.com/in/amita-roy-3b823b68/)
+- Email: sardana.amita2@gmail.com
 
 👤 **Joseph Burke**
 
 - Github: [@Joseph-Burke](https://github.com/Joseph-Burke)
 - Twitter: [@__joeburke](https://twitter.com/__joeburke)
 - Linkedin: [Joe Burke](https://www.linkedin.com/in/joseph-burke-b7a8261a5/)
+- Email: joseph_burke@outlook.com
 
 ## 🤝 Contributing
 
